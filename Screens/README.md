@@ -14,6 +14,6 @@ This directory contains the Composable screen implementations for the scouting a
 
 ## Implementation Details
 
-* **State Persistence**: Screens use `rememberSaveable` and global variables to retain data during navigation and configuration changes.
+* **States**: Screens use `rememberSaveable` and global variables to retain data during navigation and configuration changes.
 * **Shared UI Components**: The screens use `Scaffold` for the layout and feature a `TopAppBar` that displays current information and a `BottomNavigation` bar for switching between phases.
 * **Input Controls**: Uses a mix of custom circular `Button` incrementors, `Checkbox` toggles, and `TextField` inputs.
